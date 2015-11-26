@@ -12,7 +12,7 @@
 	function onDeviceReady(){
 		var elemento = document.getElementById("elDiv");
 
-		elemento.innerHTML="Nombre Dispositivo: " device.model;
+		elemento.innerHTML="Nombre Dispositivo: " device.model + "<br>" + "Version PhoneGap :"+ device.cordova+"<br>"+"Plataforma :"+device.platform+"<br>"+"Nombre UUID"+device.uuid+"<br>"+"Nombre Modelo: "+device.model+"<br>"+"Nombre version: "+device.version+"<br>";
 	}
 </script>
 
