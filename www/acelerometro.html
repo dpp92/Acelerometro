@@ -11,7 +11,7 @@
 
 	document.addEventListener("deviceready", onDeviceReady,false);
 
-	fuction onDeviceReady(){
+	function onDeviceReady(){
 		var opciones ={frequency:2000};
 
 		elAcel = navigator.accelerometer.watchAcceleration(alExito,alError,opciones);
@@ -20,7 +20,7 @@
 
 	function alExito(acelerometro){
 		var elemento= document.getElementsByName("resultado");
-		elemento.innerHTML("aceleracion x: "+acelerometro.x+"</br>"+"aceleracion y: "+acelerometro.y+"</br>"+aceleracion z: "+acelerometro.z"</br>);
+		elemento.innerHTML("aceleracion x: "+acelerometro.x+"</br>"+"aceleracion y: "+acelerometro.y+"</br>"+"aceleracion z: "+acelerometro.z+"</br>");
 
 		var acelX = elemento.offsetLeft + acelerometro.x;
 		var acelY = elemento.offsetTop + acelerometro.y;

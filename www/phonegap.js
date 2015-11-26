@@ -1,4 +1,4 @@
-*
+/*
  *     Licensed to the Apache Software Foundation (ASF) under one
  *     or more contributor license agreements.  See the NOTICE file
  *     distributed with this work for additional information
@@ -4584,18 +4584,3 @@ PhoneGap.addConstructor(function() {
     }
 });
 }
-Hide details
-Change log
-r138 by paul.beusterien on Feb 3, 2012   Diff
-PhoneGap 1.4.1. Sencha 1 specify just on
-Example in wizard. Add device.phonegap to
-sencha example
-Go to: 	
-Older revisions
-All revisions of this file
-File info
-Size: 144879 bytes, 4586 lines
-View raw file
-File properties
-svn:mime-type
-text/plain
